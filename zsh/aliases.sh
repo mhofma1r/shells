@@ -1,6 +1,3 @@
-#!/bin/zsh
-echo 'zsh.aliases.init'
-
 alias ll="ls -lsah "
 alias aliases="nano ~/shells/zsh/aliases.sh;brcreload"
 alias functions="nano ~/shells/zsh/functions.sh;brcreload"

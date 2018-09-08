@@ -1,10 +1,10 @@
-#!/bin/zsh
-echo 'zsh.functions.init'
+#.  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+#
+##               FUNCTIONS
+#
+#.  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
 
 SCRIPT_DIR="/var/code/scriptbin/"
-#
-##              DOCKER
-#
 function spwd {
         php $SCRIPT_DIR"php/spwd/crypt2.php" $1 $2 $3 | xclip -sel clip
 
