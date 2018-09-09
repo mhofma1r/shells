@@ -1,6 +1,7 @@
+echo "init.zsh.aliases"
 alias ll="ls -lsah "
-alias aliases="nano ~/shells/zsh/aliases.sh;brcreload"
-alias functions="nano ~/shells/zsh/functions.sh;brcreload"
+alias aliases="nano ~/.shells/zsh/aliases.sh;brcreload"
+alias functions="nano ~/.shells/zsh/functions.sh;brcreload"
 alias shcfg="nano ~/.ssh/config"
 alias cl="clear"
 alias pwd="pwd -P"
@@ -48,7 +49,7 @@ alias gp="git push"
 alias gs="git status"
 alias grs="git reset"
 alias grsh="git reset --hard"
-alias brcreload="source ~/.zshrc"
+alias brcreload="~/.shells/install_zsh.sh"
 alias hosts="sudo nano /etc/hosts"
 alias gmv="git mv"
 alias ginfo="git-info"
@@ -75,7 +76,7 @@ alias "wp-show-pages"="wp post list --post_type=page"
 ##              MAGENTO
 #
 #.  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
-lias mg="bin/magento"
+alias mg="bin/magento"
 alias mg-su="mg setup:upgrade"
 alias mg-ccf="mg cache:clean && bin/magento cache:flush"
 #.  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .

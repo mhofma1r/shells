@@ -1,3 +1,3 @@
-!#/bin/bash
+#!/usr/bin/zsh
 rm ~/.zshrc
-cat zsh/* >> ~/.zshrc
+cat ~/.shells/zsh/* >> ~/.zshrc

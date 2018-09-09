@@ -1,10 +1,11 @@
+echo "init.zsh.functions"
 #.  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
 #
 ##               FUNCTIONS
 #
 #.  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
 
-SCRIPT_DIR="/var/code/scriptbin/"
+SCRIPT_DIR="/var/dev/scriptbin/"
 function spwd {
         php $SCRIPT_DIR"php/spwd/crypt2.php" $1 $2 $3 | xclip -sel clip
 
