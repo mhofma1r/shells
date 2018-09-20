@@ -1,6 +1,8 @@
 #!/bin/zsh
 echo 'zsh.aliases.init'
 
+alias prp="cd ~/projectPointer"
+alias wdr="cd ~/workspace"
 alias ll="ls -lsah "
 alias aliases="nano ~/shells/zsh/aliases.sh;brcreload"
 alias functions="nano ~/shells/zsh/functions.sh;brcreload"
@@ -78,7 +80,7 @@ alias "wp-show-pages"="wp post list --post_type=page"
 ##              MAGENTO
 #
 #.  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
-lias mg="bin/magento"
+alias mg="bin/magento"
 alias mg-su="mg setup:upgrade"
 alias mg-ccf="mg cache:clean && bin/magento cache:flush"
 #.  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
@@ -88,7 +90,7 @@ alias mg-ccf="mg cache:clean && bin/magento cache:flush"
 #.  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
 alias resap="sudo apachectl -k restart"
 alias edap="sudo nano /usr/local/etc/httpd/httpd.conf"
-alias edvh="sudo nano /usr/local/etc/httpd/extra/httpd-vhosts.conf"
+alias vhosts="sudo nano /usr/local/etc/httpd/extra/httpd-vhosts.conf"
 alias ed56="sudo nano /usr/local/etc/php/5.6/php.ini"
 alias ed70="sudo nano /usr/local/etc/php/7.0/php.ini"
 alias ed71="sudo nano /usr/local/etc/php/7.1/php.ini"

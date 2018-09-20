@@ -37,6 +37,11 @@ function chwsr {
         ln -s /var/www/$1 ~/wsr
 
 }
+function chprp {
+	unlink ~/projectPointer
+	ln -s ~/workspace/$1 ~/projectPointer
+	echo "change prp to /workspace/$1"
+}
 
 function chproject {
         unlink ~/project
@@ -91,4 +96,11 @@ function chpool {
 function rmksh {
         rm ~/.ssh/known_hosts
 
+}
+function nuc-snc {
+	sync -avz ~/mnt/$1/magento2 ~/workspace/$1
+}
+function nuc-mnt {
+	mkdir -p ~/mnt/$1
+	sudo mount -t nfs -o rw,sync,resvport $1:/var/www/html/ /Users/ecx/mnt/$1/
 }
