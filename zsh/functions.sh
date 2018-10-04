@@ -105,3 +105,17 @@ function nuc-mnt {
 	mkdir -p ~/mnt/$1
 	sudo mount -t nfs -o rw,sync,resvport $1:/var/www/html/ /Users/ecx/mnt/$1/
 }
+#.  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+#
+##              ECONOMIX
+#
+#.  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+function mg-panic {
+rm -rf var/cache/* -y
+rm -rf var/di/* -y
+rm -rf var/generation/* -y
+rm -rf var/page_cache/* -y
+rm -rf pub/static/* -y
+rm -rf var/view_preprocessed/* -y
+rm -rf generated/* -y
+}

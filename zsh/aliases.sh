@@ -1,4 +1,6 @@
 echo "init.zsh.aliases"
+alias prp="cd ~/projectPointer"
+alias wsp="cd ~/workspace"
 alias ll="ls -lsah "
 alias aliases="nano ~/.shells/zsh/aliases.sh;brcreload"
 alias functions="nano ~/.shells/zsh/functions.sh;brcreload"
@@ -36,12 +38,13 @@ alias wppl="wp post list --post_type=page"
 ##              GIT
 #
 #.  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+alias gcl="git clone "
 alias grm="git rm"
 alias ga="git add"
 alias gign="git-ignore"
 alias gb="git branch"
 alias gch="git checkout"
-alias gcm="git commit -m "
+alias gcm="git commit"
 alias gcg="git config --global "
 alias gd="git diff "
 alias gl="git log "
