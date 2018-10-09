@@ -1,10 +1,8 @@
+echo "init.zsh.wdev-common"
 #.  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
 #
-##              VAGRANT Shortcodes
+##             ARTISAN
 #
 #.  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
-alias vpp="vagrant up"
-alias vdd="vagrant halt"
-alias vss="vagrant status"
-alias vxx="vagrant destroy"
-alias vsh="vagrant ssh "
+alias ar="php artisan"
+alias blp="bower list -paths"
