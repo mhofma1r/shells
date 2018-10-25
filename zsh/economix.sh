@@ -1,3 +1,3 @@
 echo "init.economix.functions"
-Alias vhosts="sudo nano https://www.youtube.com/watch?v=BUR8mWK0Pzk"
+alias vhosts="sudo nano /usr/local/etc/httpd/extra/httpd-vhosts.conf"
 

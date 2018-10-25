@@ -22,10 +22,15 @@ alias brcreload="~/.shells/install_zsh.sh"
 alias hosts="sudo nano /etc/hosts"
 alias gmv="git mv"
 alias ginfo="git-info"
+alias gsts="git stash save"
+alias gsta="git stash apply"
 #.  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
 #
 ##              GIT-flow
 #
 #.  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
 alias gfl="git flow"
-alias gfl-f="gfl feature"
+alias gfl-fs="gfl feature start "
+alias gfl-ff="gfl feature finish "
+alias gfl-rs="gfl release start "
+alias gfl-rf="gfl release finish "
