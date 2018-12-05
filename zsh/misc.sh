@@ -1,6 +1,4 @@
 echo "init.zsh.misc"
-alias prp="cd ~/projectPointer"
-alias wsp="cd ~/workspace"
 alias ll="ls -lsah "
 alias aliases="nano ~/.shells/zsh/aliases.sh;brcreload"
 alias functions="nano ~/.shells/zsh/functions.sh;brcreload"
