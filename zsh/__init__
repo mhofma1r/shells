@@ -110,7 +110,7 @@ source $ZSH/oh-my-zsh.sh
 alias zshconfig="mate ~/.zshrc"
 alias ohmyzsh="mate ~/.oh-my-zsh"
 alias pwd="pwd -P"
-source $HOME/.zsh_aliases
+source /home/${USER}/.zsh_aliases
 
 if [ -d "/var/www/projectPointer" ]; then
   cd /var/www/projectPointer;
