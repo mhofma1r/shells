@@ -105,6 +105,9 @@ source $ZSH/oh-my-zsh.sh
 
 alias zshconfig="mate ~/.zshrc"
 alias ohmyzsh="mate ~/.oh-my-zsh"
-cd /var/www/projectPointer;
-alias pwd="pwd -P"
+my_link=/var/www/projectPointer
+if [ -L ${my_link} ] && [ -e ${my_link} ]; then
+  cd /var/www/projectPointer;
+fi
+fialias pwd="pwd -P"
 alias purge="rm -fdr "
