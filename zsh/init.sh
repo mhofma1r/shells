@@ -109,5 +109,5 @@ my_link=/var/www/projectPointer
 if [ -L ${my_link} ] && [ -e ${my_link} ]; then
   cd /var/www/projectPointer;
 fi
-fialias pwd="pwd -P"
+alias pwd="pwd -P"
 alias purge="rm -fdr "
