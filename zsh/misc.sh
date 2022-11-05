@@ -1,3 +1,5 @@
+
+
 echo "init.zsh.misc"
 alias prp="cd ~/projectPointer"
 alias wsp="cd ~/workspace"
